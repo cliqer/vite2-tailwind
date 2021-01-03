@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import "./js/socket.io.min";
-import "peerjs"
-// import './index.css'
+import "./js/peerjs.min"
+import './index.css'
 
 const peer = new window.Peer();
 

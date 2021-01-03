@@ -13,7 +13,6 @@ export default {
     // include: ['socket.io-client/dist/socket.io.js'],
     exclude: [
         // 'rollup-plugin-terser',
-        'socket.io-client',
         'peerjs'
     ]
   },

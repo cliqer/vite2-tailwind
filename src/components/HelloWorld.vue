@@ -19,7 +19,8 @@ defineProps({
   msg: String
 })
 
-const test = ref('lalala')
 const state = reactive({ count: 0 })
+
+const test = ref('lalala')
 test.value = 'aasdaaaa'
 </script>
